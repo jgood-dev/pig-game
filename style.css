@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
 * {
   margin: 0;
   padding: 0;
@@ -12,11 +10,11 @@ html {
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Orbitron', sans-serif;
   font-weight: 400;
   height: 100vh;
   color: #333;
-  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  background-image: linear-gradient(to top left, #555555 0%, #000000 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,6 +73,7 @@ main {
 
 .player--active .current {
   opacity: 1;
+  font-weight: bolder;
 }
 
 .current {
@@ -121,12 +120,6 @@ main {
   padding: 0.7rem 2.5rem;
   border-radius: 50rem;
   box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
-}
-
-.btn::first-letter {
-  font-size: 2.4rem;
-  display: inline-block;
-  margin-right: 0.7rem;
 }
 
 .btn--new {
